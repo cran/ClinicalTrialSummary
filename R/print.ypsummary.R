@@ -27,7 +27,7 @@ print.ypsummary <- function(x, ...) {
     print_mrypt$pvalue <- fun_less(print_mrypt$pvalue)
 
     cat("\n=====================================================\n")
-    cat(paste("   Estimates of Five Summary Measures (tau = ", tau, ")", sep = ""))
+    cat(paste("    Summary Measures (tau = ", tau, ")", sep = ""))
     cat("\n=====================================================\n")
     cat("    AHR      Estimate (CI):", print_ahrypt$estimate, paste("(", print_ahrypt$lower,
                                                                     ", ", print_ahrypt$upper, ")", sep = ""), "\n")

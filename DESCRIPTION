@@ -1,7 +1,7 @@
 Package: ClinicalTrialSummary
 Type: Package
 Title: Summary Measures for Clinical Trials with Survival Outcomes
-Version: 0.1.0
+Version: 1.0.0
 Author: Daewoo Pak and Song Yang
 Maintainer: Daewoo Pak <heavyrain.pak@gmail.com>
 Description: Provides estimates of the several summary measures for clinical trials including
@@ -11,7 +11,7 @@ Description: Provides estimates of the several summary measures for clinical tri
     long-term hazard ratio model (Yang, 2005 <doi:10.1093/biomet/92.1.1>) 
     which accommodates various non-proportional hazards scenarios. The inference
     procedures and the asymptotic results for the summary measures are discussed 
-    in Yang (2017, pre-print).
+    in Yang (2018, <doi:10.1002/sim.7676>).
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -19,6 +19,6 @@ RoxygenNote: 6.0.1
 Imports: Rcpp
 LinkingTo: Rcpp
 NeedsCompilation: yes
-Packaged: 2017-11-07 14:05:43 UTC; daewoo
+Packaged: 2019-01-02 17:01:05 UTC; dpak
 Repository: CRAN
-Date/Publication: 2017-11-07 17:55:19 UTC
+Date/Publication: 2019-01-02 17:30:03 UTC
