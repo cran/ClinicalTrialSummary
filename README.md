@@ -5,7 +5,7 @@ output:
 ---
 # ClinicalTrialSummary
 
-ClinicalTrialSummary provides estimates of the several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). These estimates are obtained under the short-term and long-term hazard ratio model (Yang and Prentice, 2005) which allows a range of time-varying hazard ratio shapes including crossing hazards situations.
+ClinicalTrialSummary provides estimates of several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). These estimates are obtained under the short-term and long-term hazard ratio model (Yang and Prentice, 2005) which allows a range of time-varying hazard ratio shapes including crossing hazards situations.
 
 ## Summary Measures
 Let $hr(x) = \lambda_{t}(x)/\lambda_{c}(x)$ be the hazard ratio function, where $\lambda_t(x)$ and $\lambda_c(x)$ are the hazard functions for the treatment group ($t$) and the control group ($c$), respectively.

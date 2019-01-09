@@ -1,6 +1,6 @@
-c512f0143514caf8d22d98ed363c3577 *DESCRIPTION
+78a79283c61d9bcb250883c415d09150 *DESCRIPTION
 fd8a3a915d69dbac4b92ae7f266e7a10 *NAMESPACE
-34ef024bb89f6e1143a65d6e8912b3f9 *NEWS.md
+ae9a6d68c524db94fe788283df148876 *NEWS.md
 3e5c0eb76513d6df6649990e157f3f2d *R/RcppExports.R
 d831c1bb1c43383780d6294ba55122f2 *R/fun_ahrf.R
 702080bcd51b13cb608b0516a70c402c *R/fun_ahrypt.R
@@ -15,11 +15,11 @@ d568843a8894987d48f5a39f9066da08 *R/fun_mdypt.R
 4c984c9511ce9601cd3bd806344e6408 *R/summary.ypsummary.R
 86fc167c6c8dd1d094af91e7a98d6355 *R/ypsummary.R
 7fd88e37a2db5cf0a3c3c393c2d759af *R/ypsummary.default.R
-e972f6ddd67b1613d86251b253ebfa20 *README.md
+3bb527077255d291ac69f087b7e1ebab *README.md
 d676a0d7236156f35585d0005c1f4ffe *data/ggas.rda
 3df7e3945c054548e8661548195c7de0 *man/ClinicalTrialSummary-internal.Rd
-4de61a051661638c43680724f37dd63a *man/ClinicalTrialSummary-package.Rd
+6be393c4bd8483ba3f8e97a6b5f97376 *man/ClinicalTrialSummary-package.Rd
 a5af5090d5c219bf581a0f657606e87f *man/ggas.Rd
-4fd66d88946982a9e44c5f738b08060a *man/ypsummary.Rd
+9e8058c672e29492de162c3a0d894e68 *man/ypsummary.Rd
 7c2e3ab796163dd40209c73e26528c03 *src/RcppExports.cpp
 e74e26b058346086657629e44fea1972 *src/ransamf.cpp

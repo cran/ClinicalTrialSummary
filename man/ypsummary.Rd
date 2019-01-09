@@ -28,19 +28,19 @@
 \item{repnum}{the number of replications for the resampling method in obtaining the limiting variance estimators of the measures. The default value is 2000.}
 }
 \description{
-\code{ypsummary} provides estimates of the several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). The function utilizes the short-term and long-term hazard ratio model proposed in Yang and Prentice (2005), which can acccomodate various nonproportional hazard scenarios. The asymptotic properties of the summary measures are also discussed in Yang and Prentice (2011), Yang (2013), and Yang (2018).
+\code{ypsummary} provides estimates of several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). The function utilizes the short-term and long-term hazard ratio model proposed in Yang and Prentice (2005), which can acccomodate various nonproportional hazard scenarios. The asymptotic properties of the summary measures are also discussed in Yang and Prentice (2011), Yang (2013), and Yang (2018).
 }
 \details{
 The function \code{ypsummary} provides five summary measures of the treatment effect (see, Yang 2018), which can be utilized for various nonproportional haards scenarios:
 \itemize{
 \item the average hazard ratio (AHR): \eqn{\int  hr(x) dx}{∫  hr(x)dx}
-\item the weighted average hazard ratio (WAHR): \eqn{\int hr(x) dw(x)}{∫  hr(x)dw(x)} where \eqn{dw(x) = dFc(x)/Fc(\tau)}
-\item the restricted superiority probability ratio (RSPR): \eqn{\frac{\int Sc(x) dFt(x)}{\int St(x) dFc(x)}}{∫  Sc(x)dFt(x) / ∫  St(x)dFc(x)}
-\item the restricted mean survival difference (RMSD): \eqn{\int St(x) dx - \int Sc(x) dx}{∫  St(x)dx - ∫  Sc(x)dx}
-\item the ratio of restricted mean times lost (RRMTL): \eqn{\frac{\tau - \int St(x) dx}{\tau - \int Sc(x) dx}}{(\tau - ∫  St(x)dx) / (\tau - ∫  Sc(x)dx)}
+\item the weighted average hazard ratio (WAHR): \eqn{\int hr(x) dw(x)}{∫  hr(x)dw(x)} where \eqn{dw(x) = dF_c(x)/F_c(\tau)}
+\item the restricted superiority probability ratio (RSPR): \eqn{\frac{\int Sc(x) dF_t(x)}{\int S_t(x) dF_c(x)}}{∫  S_c(x)dF_t(x) / ∫  S_t(x)dF_c(x)}
+\item the restricted mean survival difference (RMSD): \eqn{\int S_t(x) dx - \int S_c(x) dx}{∫  S_t(x)dx - ∫  S_c(x)dx}
+\item the ratio of restricted mean times lost (RRMTL): \eqn{\frac{\tau - \int S_t(x) dx}{\tau - \int S_c(x) dx}}{(\tau - ∫  S_t(x)dx) / (\tau - ∫  S_c(x)dx)}
 }
 
-where \eqn{hr(x)} is the hazard ratio of the treatment group over the control group, \eqn{Ft(x)} and \eqn{Fc(x)} are the distribution functions for the treatment group and control group, respectively, and \eqn{St(x) = 1 - Ft(x)} and \eqn{Sc(x) = 1 - Fc(x)}. Note that all integrals are taken from 0 to \eqn{\tau}. 
+where \eqn{hr(x)} is the hazard ratio of the treatment group over the control group, \eqn{F_t(x)} and \eqn{F_c(x)} are the distribution functions for the treatment group and control group, respectively, and \eqn{S_t(x) = 1 - F_t(x)} and \eqn{S_c(x) = 1 - F_c(x)}. Note that all integrals are taken from 0 to \eqn{\tau}. 
 }
 
 \value{

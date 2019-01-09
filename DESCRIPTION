@@ -1,10 +1,10 @@
 Package: ClinicalTrialSummary
 Type: Package
 Title: Summary Measures for Clinical Trials with Survival Outcomes
-Version: 1.0.0
+Version: 1.0.1
 Author: Daewoo Pak and Song Yang
 Maintainer: Daewoo Pak <heavyrain.pak@gmail.com>
-Description: Provides estimates of the several summary measures for clinical trials including
+Description: Provides estimates of several summary measures for clinical trials including
     the average hazard ratio, the weighted average hazard ratio, the restricted 
     superiority probability ratio, the restricted mean survival difference and 
     the ratio of restricted mean times lost, based on the short-term and 
@@ -19,6 +19,6 @@ RoxygenNote: 6.0.1
 Imports: Rcpp
 LinkingTo: Rcpp
 NeedsCompilation: yes
-Packaged: 2019-01-02 17:01:05 UTC; dpak
+Packaged: 2019-01-09 20:33:47 UTC; dpak
 Repository: CRAN
-Date/Publication: 2019-01-02 17:30:03 UTC
+Date/Publication: 2019-01-09 20:50:04 UTC

@@ -5,15 +5,15 @@
 	Summary Measures for Clinical Trials with Survival Outcomes
 }
 \description{
-ClinicalTrialSummary provides estimates of the several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). These estimates are obtained under the short-term and long-term hazard ratio model (Yang and Prentice, 2005) which allows a range of time-varying hazard ratio shapes including crossing hazards situations.
+ClinicalTrialSummary provides estimates of several summary measures of the treatment effect for design and analysis of clinical trials with survival outcomes, introduced in Yang (2018). These estimates are obtained under the short-term and long-term hazard ratio model (Yang and Prentice, 2005) which allows a range of time-varying hazard ratio shapes including crossing hazards situations.
 
-Let \eqn{hr(x) = \lambda_{t}(x)/\lambda_{c}(x)}{hr(x) = λt(x)/λc(x)} be the hazard ratio function, where \eqn{\lambda_{t}(x)}{λt(x)} and \eqn{\lambda_{c}(x)}{λc(x)} are the hazard functions for the treatment group and the control group, respectively. The main function of the package, \code{\link{ypsummary}}, provides following five summary measures:
+Let \eqn{hr(x) = \lambda_{t}(x)/\lambda_{c}(x)}{hr(x) = λ_t(x)/λ_c(x)} be the hazard ratio function, where \eqn{\lambda_{t}(x)}{λ_t(x)} and \eqn{\lambda_{c}(x)}{λ_c(x)} are the hazard functions for the treatment group and the control group, respectively. The main function of the package, \code{\link{ypsummary}}, provides following five summary measures:
 \itemize{
 \item the average hazard ratio (AHR): \eqn{\int  hr(x) dx}{∫  hr(x)dx}
-\item the weighted average hazard ratio (WAHR): \eqn{\int hr(x) dw(x)}{∫  hr(x)dw(x)} where \eqn{dw(x) = dFc(x)/Fc(\tau)}
-\item the restricted superiority probability ratio (RSPR): \eqn{\frac{\int Sc(x) dFt(x)}{\int St(x) dFc(x)}}{∫  Sc(x)dFt(x) / ∫  St(x)dFc(x)}
-\item the restricted mean survival difference (RMSD): \eqn{\int St(x) dx - \int Sc(x) dx}{∫  St(x)dx - ∫  Sc(x)dx}
-\item the ratio of restricted mean times lost (RRMTL): \eqn{\frac{\tau - \int St(x) dx}{\tau - \int Sc(x) dx}}{(\tau - ∫  St(x)dx) / (\tau - ∫  Sc(x)dx)}
+\item the weighted average hazard ratio (WAHR): \eqn{\int hr(x) dw(x)}{∫  hr(x)dw(x)} where \eqn{dw(x) = dF_c(x)/F_c(\tau)}
+\item the restricted superiority probability ratio (RSPR): \eqn{\frac{\int S_c(x) dF_t(x)}{\int St(x) dF_c(x)}}{∫  S_c(x)dF_t(x) / ∫  S_t(x)dF_c(x)}
+\item the restricted mean survival difference (RMSD): \eqn{\int S_t(x) dx - \int S_c(x) dx}{∫  S_t(x)dx - ∫  S_c(x)dx}
+\item the ratio of restricted mean times lost (RRMTL): \eqn{\frac{\tau - \int S_t(x) dx}{\tau - \int S_c(x) dx}}{(\tau - ∫  S_t(x)dx) / (\tau - ∫  S_c(x)dx)}
 }
 
 Note that  all integrals are taken over \eqn{(0, \tau)} for \eqn{\tau} less than or equal to the maximum follow-up duration of the trial. The asymptotic results for the average hazard ratio and the restricted mean survival difference were established in Yang and Prentice (2011) and Yang (2013), respectively. For other measures, the asymptotic results were established in Yang (2018).

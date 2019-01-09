@@ -9,5 +9,6 @@
 
 * Update help documents. The summary measures A more detailed explanation of the summary measures.
 
-
+# ClinicalTrialSummary 1.0.1
+* Minor correction on the help documents and the README file
 
